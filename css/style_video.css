@@ -1,0 +1,578 @@
+body {
+    overflow: hidden !important;
+}
+
+
+/*_________________________SECTION1________________________*/
+
+section {
+    display: inline-block;
+}
+
+section article video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+aside {
+    position: relative;
+    visibility: hidden;
+}
+
+aside img#photo1 {
+    width: 776px;
+    height: 560px;
+    scale: 0.8;
+    position: absolute;
+    left: 185px;
+    top: 70px;
+}
+
+@keyframes scale-photo1 {
+    from {
+        scale: 0.8;
+    }
+
+    to {
+        scale: 1;
+    }
+}
+
+@keyframes animate-photo1 {
+    from {
+        left: 185px;
+        top: 70px;
+    }
+
+    to {
+        left: 390px;
+        top: 150px;
+    }
+}
+
+/*_________________________SECTION2________________________*/
+
+section.image {
+    display: inline-block;
+    z-index: 99;
+    width: 100%;
+    height: 90vh;
+}
+
+section div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+section div:nth-child(2) h2 {
+    font-weight: 600;
+}
+
+section.image div div div {
+    display: flex;
+    color: rgb(149, 149, 149);
+    margin-top: 8px;
+}
+
+section.image div div div h4 {
+    margin-left: 20px;
+}
+
+section.image div div div h3 {
+    color: rgb(195, 195, 195);
+}
+
+section.image div div div h5 {
+    margin-left: 16px;
+}
+
+section div i {
+    margin: 10px;
+}
+
+section div p {
+    margin-top: 4px;
+}
+
+/*___________POP-UP_________*/
+
+section div.pop {
+    width: auto;
+    height: auto;
+    visibility: hidden;
+    position: absolute;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid rgb(194, 194, 194);
+}
+
+section div.pose1 {
+    right: 5%;
+    top: 70%;
+}
+
+section div.pose2 {
+    right: 13%;
+    top: 50%;
+}
+
+section div.pose3 {
+    right: 18%;
+    top: 80%;
+}
+
+section div.pose4 {
+    right: 25%;
+    top: 10%;
+}
+
+section div.pose5 {
+    right: 45%;
+    top: 95%;
+}
+
+section div.pose6 {
+    right: 65%;
+    top: 5%;
+}
+
+section div.pose7 {
+    right: 75%;
+    top: 49%;
+}
+
+section div.pose8 {
+    right: 5%;
+    top: 5%;
+}
+
+section div.pose9 {
+    right: 70%;
+    top: 35%;
+}
+
+section div.pose10 {
+    right: 75%;
+    top: 18%;
+    scale: 75%;
+}
+
+section div.pose11 {
+    right: 65%;
+    top: 80%;
+    scale: 75%;
+}
+
+section div.pose12 {
+    right: 5%;
+    top: 20%;
+    scale: 80%;
+}
+
+section div.pose13 {
+    right: 70%;
+    top: 93%;
+    scale: 80%;
+}
+
+section div.pose14 {
+    right: 45%;
+    top: 16%;
+    scale: 85%;
+}
+
+section div.pose15 {
+    right: 19%;
+    top: 26%;
+    scale: 85%;
+}
+
+section div.pose16 {
+    right: 54%;
+    top: 48%;
+    scale: 90%;
+}
+
+section div.pose17 {
+    right: 18%;
+    top: 63%;
+    scale: 90%;
+}
+
+section div.pose18 {
+    right: 5%;
+    top: 93%;
+    scale: 95%;
+}
+
+section div.pose19 {
+    right: 10%;
+    top: 38%;
+    scale: 95%;
+}
+
+section div.pose20 {
+    right: 45%;
+    top: 3%;
+}
+
+section div.pose21 {
+    right: 42%;
+    top: 60%;
+    scale: 105%;
+}
+
+section div.pose22 {
+    right: 36%;
+    top: 75%;
+    scale: 110%;
+}
+
+section div.pose23 {
+    right: 50%;
+    top: 29%;
+    scale: 115%;
+}
+
+section div.pose24 {
+    right: 58%;
+    top: 67%;
+    scale: 120%;
+}
+
+section div.pose25 {
+    right: 38%;
+    top: 48%;
+    scale: 200%;
+}
+
+/*___________PHOTOS_________*/
+
+section div i.photofille1 {
+    background-image: url('../img/fille-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+section div i.photofille2 {
+    background-image: url('../img/fille3-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+section div i.photofille3 {
+    background-image: url('../img/fille4-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+section div i.photofille4 {
+    background-image: url('../img/fille5-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+section div i.photofille5 {
+    background-image: url('../img/fille5\ \(2\)-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+section div i.photofille6 {
+    background-image: url('../img/fille6-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+section div i.photofille7 {
+    background-image: url('../img/fille6\ \(2\)-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+section div i.photofille8 {
+    background-image: url('../img/fille7-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+section div i.photofille9 {
+    background-image: url('../img/fille8-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+section div i.photofille10 {
+    background-image: url('../img/fille\ \(3\)-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+section div i.photofille11 {
+    background-image: url('../img/fille\ \(4\)-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    display: inline-block;
+}
+
+section div i.photofille12 {
+    background-image: url('../img/fille\ \(2\)-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+section div i.photogars1 {
+    background-image: url('../img/gars-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+section div i.photogars2 {
+    background-image: url('../img/gars3-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+section div i.photogars3 {
+    background-image: url('../img/gars4-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+section div i.photogars4 {
+    background-image: url('../img/gars\ \(2\)-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+section div i.photogars5 {
+    background-image: url('../img/gars\ \(3\)-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    display: inline-block;
+}
+
+section div i.photogars6 {
+    background-image: url('../img/gars\ \(4\)-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+section div i.photogars7 {
+    background-image: url('../img/gars\ \(5\)-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+section div i.photogars8 {
+    background-image: url('../img/gars\ \(6\)-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+section div i.photogars9 {
+    background-image: url('../img/gars\ \(7\)-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    display: inline-block;
+}
+
+section div i.photogars10 {
+    background-image: url('../img/gars\ \(8\)-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+section div i.photogars11 {
+    background-image: url('../img/gars\ \(9\)-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+section div i.photogars12 {
+    background-image: url('../img/gars\ \(2\)-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+section div i.photogars13 {
+    background-image: url('../img/gars\ \(10\)-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.video-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+iframe {
+    position: absolute;
+    top: -10%;
+    width: 100vw;
+    height: 117vh;
+    pointer-events: none;
+}
+
+/*___________COEUR_________*/
+
+section div i {
+    background-image: url(../img/coeur.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 16px;
+}
+
+/*_________________________FOOTER________________________*/
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 10px;
+
+}
+
+footer a {
+    font-size: 16px;
+    position: absolute;
+    left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: #d00262;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    transition-duration: 0.4s;
+}
+
+footer a i {
+    background-image: url('../img/arrow.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 16px;
+    height: 8px;
+    transform-origin: center;
+    rotate: 270deg;
+    margin-right: 4px;
+}
+
+footer a:hover {
+    background-color: black;
+    color: white;
+    outline: 1px solid white;
+}

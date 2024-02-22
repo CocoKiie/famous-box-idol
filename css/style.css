@@ -1,0 +1,155 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+    @font-face {
+        font-family: Milestone;
+        src: url(../font/Milestone.otf);
+    }
+    
+    section {
+        min-height: 100vh;
+        width: 100%;
+        color: black;
+        background-color: #5ce1e6;
+    }
+    
+    section article {
+        background-color: white;
+        border-radius: 8px;
+        width: 50%;
+        display: inline-block;
+        margin: 3% 25%;
+        text-align: center;
+    }
+    
+    section article div:first-child {
+        overflow: hidden;
+        margin-bottom: 48px;
+    }
+    
+    section article div img {
+        width: 99%;
+        height: auto;
+        border-radius: 4px;
+        object-fit: cover;
+    }
+    
+    header {
+        margin-left: 48px;
+        margin-top: 24px;
+        display: inline-block;
+    }
+    
+    section header h1 {
+        font-size: 40px;
+        font-family: 'Milestone', sans-serif;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+    }
+    
+    section header h1 i {
+        background-image: url('../img/famousbox.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+        margin-right: 10px;
+        width: 29px;
+        height: 33px;
+    }
+    
+    section header h2 {
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+    
+    section article div form input {
+        font-size: 24px;
+        width: 50%;
+        height: 36px;
+        font-family: 'Montserrat', sans-serif;
+        border-radius: 4px;
+    }
+    
+    section article div form p {
+        font-size: 16px;
+        margin-top: 8px;
+        margin-bottom: 32px;
+    }
+    
+    section article div form input:focus {
+        border: 2px solid #d00262;
+        outline: none;
+    }
+    
+    section article div form input[type=submit] {
+        background-color: black;
+        color: white;
+        width: 51%;
+        height: 48px;
+        border: 1px solid black;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    
+    section article div form input[type=submit]:hover {
+        background-color: #d00262;
+        color: white;
+        border: 1px solid #d00262;
+    }
+    
+    section article div form input[type=submit]:active {
+        background-color: #d00262;
+        border: 1px solid #d00262;
+    }
+    
+    section article div p {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        margin-bottom: 10px;
+        margin-top: 12px;
+    }
+
+    body{
+        overflow: hidden !important;
+    }    
+    
+    footer {
+        background-color: #5ce1e6;
+        width: 100%;
+        height: fit-content;
+        position: relative;
+    }
+    
+    footer a {
+        font-size: 16px;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        background-color: #d00262;
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        transition-duration: 0.4s;
+    }
+    
+    footer a i {
+        background-image: url('../img/arrow.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+        width: 16px;
+        height: 8px;
+        transform-origin: center;
+        rotate: 270deg;
+        margin-right: 4px;
+    }
+    
+    footer a:hover {
+        background-color: black;
+        color: white;
+    }

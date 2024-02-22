@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../font/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: DM sans;
+    src: url(../font/DMSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Milestone;
+    src: url(../font/Milestone.otf);
+}
+
+section {
+    min-height: 100vh;
+    width: 100%;
+    color: black;
+    background-color: #5ce1e6;
+}
+
+section article {
+    width: 20%;
+    display: block;
+    margin: 6% 40%;
+    text-align: center;
+}
+
+section article h2 {
+    font-family: 'DM sans';
+    font-weight: 400;
+    font-size: 125px;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
+
+section article h2+p {
+    font-family: 'DM sans';
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 48px;
+}
+
+section article div {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+body{
+    overflow: hidden !important;
+}
+
+section article div h3 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+section article div h3+p {
+    font-family: 'DM sans';
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 18px;
+    letter-spacing: 0.3px;
+    line-height: 28px;
+}
+
+section article a {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    color: #d00262;
+    border-top: 2px solid rgb(155, 154, 154);
+}
+
+header {
+    margin-left: 48px;
+    margin-top: 24px;
+    display: inline-block;
+}
+
+section header h1 {
+    font-size: 40px;
+    font-family: 'Milestone', sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+section header h1 i {
+    background-image: url('../img/famousbox.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 10px;
+    width: 29px;
+    height: 33px;
+}
+
+section header h2 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+section img {
+    width: 20%;
+    position: absolute;
+}
+
+section img.a {
+    left: 70%;
+    transform: rotate(5deg);
+}
+
+section img.j {
+    left: 15%;
+    top: 5%;
+    transform: rotate(-5deg);
+}
+
+section img.l {
+    left: 65%;
+    top: 40%;
+    width: 19%;
+    transform: rotate(-15deg);
+}
+
+section img.m {
+    left: 8%;
+    top: 40%;
+    width: 18%;
+    transform: rotate(10deg);
+}
