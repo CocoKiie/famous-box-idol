@@ -6,7 +6,7 @@ Nous sommes une équipe de 4. Jade Buffy pour le motion design et Anthony Mirota
 
 
 L'expérience :
-Notre expérience commence dans une cabine photo. Une fois que le visiteur a pris 3 photos, il est redirigé vers la deuxième partie de l'expérience -- là où mon code prend le relais.
+Le visiteur commence dans une cabine photo. Une fois qu'il a pris 3 photos, il est redirigé vers la deuxième partie de l'expérience -- là où mon code prend le relais.
 Le visiteur fait alors face à un grand écran pour voir ce que vous pouvez voir ici : https://famous-box.great-site.net/ 
 (la base de données étant vide, vous n'aurez pas d'images).
 
